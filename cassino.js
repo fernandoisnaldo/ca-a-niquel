@@ -44,7 +44,7 @@ function checarVictoria(){
 }
 function setPontos(){
   $(".pontos").text(pontos);
-  if(pontos>50){
+  if(pontos>999){
     $(".play").show();
   }
 }
