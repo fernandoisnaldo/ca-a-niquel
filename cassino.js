@@ -9,7 +9,7 @@ function jogar(){
   for (let i=0;i<Math.random()*20000+30000;i++){
     setTimeout(() => {  fillCarretel(); }, 100);
   }
-  pontos-=200;
+  pontos-=1000;
   setTimeout(() => {  checarVictoria(); }, 5000);
 }
 function fillCarretel(){
@@ -28,17 +28,17 @@ function checarVictoria(){
   let b=$("#q22").html();
   let c=$("#q23").html();
   if(a==b && b==c){
-    pontos+=5000;
+    pontos+=10000;
   }
   else if((a+b+c)=="毛泽东"){
     pontos+=1000000+Math.random()*200000000;
     alert("JACKPOT!!!!");
   }
   else if(a+b=="巴西" || b+c=="巴西"){
-    pontos+=10000;
+    pontos+=5000;
   }
   else if(a+b=="中国" || b+c=="中国"){
-    pontos+=10000;
+    pontos+=5000;
   }
   setPontos();
 }
