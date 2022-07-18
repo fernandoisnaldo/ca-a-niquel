@@ -3,7 +3,7 @@ body {
 }
 .maquina{
   text-align: center;
-  height: 700px;
+  min-height: 550px;
 }
 footer {
   font-size: 10pt;
