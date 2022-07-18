@@ -3,13 +3,13 @@ body {
 }
 .maquina{
   text-align: center;
-  min-height: 550px;
+  min-height: 600px;
 }
 footer {
   font-size: 10pt;
 }
 .carretel {
-  padding: 5 px;
+  padding: 5px;
   margin: 5px;
 }
 .carretel img {
