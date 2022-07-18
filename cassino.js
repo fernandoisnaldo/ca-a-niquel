@@ -1,4 +1,4 @@
-let componente=["毛","中","囯","巴","西","泽","东"];
+let componente=["毛","中","国","巴","西","泽","东"];
 let pontos=10000;
 setPontos();
 fillCarretel();
