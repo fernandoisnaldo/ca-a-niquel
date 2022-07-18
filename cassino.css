@@ -1,5 +1,7 @@
 body {
   font-size: 30pt;
+  color: #000;
+  background-image: linear-gradient(#666, #888);
 }
 .maquina{
   text-align: center;
